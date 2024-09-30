@@ -37,10 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "User ",
-    "Video",
-    "Subscription",
-    "History",
+    "Video_subscription",
 ]
 
 MIDDLEWARE = [
