@@ -234,17 +234,17 @@ class AdminChangePasswordSerializer(
 class VideoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Video
-        fields = ('id', 'title', 'description' , 'uploadData' , 'videoLink' , 'Rating')
+        fields = '__all__'
         
         
 class SubscriptionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Subscription
-        fields = ('id', 'subscriptionType', 'Duration')
+        fields = '__all__'
         
 
 class HistorySerializer(serializers.ModelSerializer):
     class Meta:
         model = History
-        fields = ('id', 'videoID', 'userID' , 'date' , 'liked' , 'disliked' , 'comment')
+        fields = '__all__'
 
